@@ -8,8 +8,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".TodoActivity"
-            android:label="@string/app_name" >
+            android:name=".flux.feature.todo.TodoActivity"
+            android:label="@string/app_name"
+                android:theme="@style/AppThemeFlux">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
